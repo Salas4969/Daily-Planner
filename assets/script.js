@@ -7,11 +7,6 @@ console.log(currentHR)
 var timeslots =[$("#time-9AM"), $("#time-10AM"), $("#time-11AM"), $("#time-12PM"), $("#time-1PM"),$("#time-2PM"),$("#time-3PM"),$("#time-4PM"),$("#time-5PM"),
 ]
 todayEl.innerText=currentDay
-// display saved local storage 
-// console.log(localStorage)
-// var storedEvent = localStorage.getItem("event")
-// console.log(storedEvent)
-// userInput.val(storedEvent) 
 
 
 
@@ -22,10 +17,6 @@ for(var t=0 ; t < timeslots.length ; t++){
     hourCheck(slotHr,timeslots[t])
     
 }
-// give timeslot time correct time 
-// compare hours of each timeslot
-// change colo based on past,present,future
-// var slotHr =timeslots.hour();
 
 function hourCheck(slotHr,timeslot){
     console.log(slotHr, timeslot)
