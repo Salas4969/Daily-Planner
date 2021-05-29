@@ -1,7 +1,7 @@
 var todayEl =document.getElementById("currentDay")
 var m = moment()
 var currentDay = m.format("dddd, MMMM Do YYYY")
-var currentHR = m.format("h")
+var currentHR = m.format("HH")
 var userInput = $(".input")
 console.log(currentHR)
 var timeslots =[$("#time-9AM"), $("#time-10AM"), $("#time-11AM"), $("#time-12PM"), $("#time-1PM"),$("#time-2PM"),$("#time-3PM"),$("#time-4PM"),$("#time-5PM"),
